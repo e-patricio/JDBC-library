@@ -59,4 +59,5 @@ public class Controller {
     public boolean cadastraLivroNovo(@RequestBody final Livro livro) {
         return livros.cadastraLivroNovo(livro);
     }
+
 }

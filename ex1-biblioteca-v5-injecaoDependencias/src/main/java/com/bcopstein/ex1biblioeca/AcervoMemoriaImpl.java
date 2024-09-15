@@ -12,10 +12,10 @@ public class AcervoMemoriaImpl implements IAcervoRepository {
     public AcervoMemoriaImpl() {
         livros = new LinkedList<>();
 
-        livros.add(new Livro(10, "Introdução ao Java", "Huguinho Pato", 2022));
-        livros.add(new Livro(20, "Introdução ao Spring-Boot", "Zezinho Pato", 2020));
-        livros.add(new Livro(15, "Principios SOLID", "Luizinho Pato", 2023));
-        livros.add(new Livro(17, "Padroes de Projeto", "Lala Pato", 2019));
+        // livros.add(new Livro(10, "Introdução ao Java", "Huguinho Pato", 2022));
+        // livros.add(new Livro(20, "Introdução ao Spring-Boot", "Zezinho Pato", 2020));
+        // livros.add(new Livro(15, "Principios SOLID", "Luizinho Pato", 2023));
+        // livros.add(new Livro(17, "Padroes de Projeto", "Lala Pato", 2019));
     }
 
     @Override
