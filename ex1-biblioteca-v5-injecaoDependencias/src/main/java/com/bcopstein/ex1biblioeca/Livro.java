@@ -5,14 +5,14 @@ public class Livro {
     private String titulo;
     private String autor;
     private int ano;
-    private int codUsuario;
+    private int codigoUsuario;
 
-    public Livro(long id, String titulo, String autor, int ano, int codUsuario) {
+    public Livro(long id, String titulo, String autor, int ano, int codigoUsuario) {
         this.id = id;
         this.titulo = titulo;
         this.autor = autor;
         this.ano = ano;
-        this.codUsuario = codUsuario;
+        this.codigoUsuario = codigoUsuario;
     }
 
     public Livro(long id, String titulo, String autor, int ano) {
@@ -38,11 +38,11 @@ public class Livro {
         return ano;
     }
 
-    public int getCodUsuario(){
-        return codUsuario;
+    public int getCodigoUsuario(){
+        return codigoUsuario;
     }
 
     @Override
     public String toString() {
-        return "Livro [id=" + id + ", titulo=" + titulo + ", autor=" + autor + ", ano=" + ano + ", codigoUsuario=" + codUsuario + "]";}
+        return "Livro [id=" + id + ", titulo=" + titulo + ", autor=" + autor + ", ano=" + ano + ", codigoUsuario=" + codigoUsuario + "]";}
 }

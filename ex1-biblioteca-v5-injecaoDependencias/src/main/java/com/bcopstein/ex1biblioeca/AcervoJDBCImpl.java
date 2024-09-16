@@ -77,16 +77,18 @@ public class AcervoJDBCImpl implements IAcervoRepository {
             return this.jdbcTemplate.query("SELECT titulo FROM livros", 
                 (rs, rowNum) -> rs.getString("titulo"));
         }
-
-        public boolean emprestaLivro(long codigo, long codUsuario) {
-            int rowsAffected = this.jdbcTemplate.update("UPDATE livros SET codUsuario = ? WHERE codigo = ?",
-                codUsuario, codigo);
-            return rowsAffected > 0;
-        }
-    
+        
+        @Override
         public boolean devolveLivro(long codigo) {
             int rowsAffected = this.jdbcTemplate.update("UPDATE livros SET codUsuario = -1 WHERE codigo = ?",
                 codigo);
+            return rowsAffected > 0;
+        }
+
+        @Override
+        public boolean emprestaLivro(Long codigo, long codigoUsuario) {
+            int rowsAffected = this.jdbcTemplate.update("UPDATE livros SET codUsuario = ? WHERE codigo = ?",
+                codigoUsuario, codigo);
             return rowsAffected > 0;
         }
         
