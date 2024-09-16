@@ -1,4 +1,4 @@
-package com.bcopstein.ex1biblioeca;
+package com.gurias.ex1biblioeca;
 
 public class Usuario {
     private long codigo;

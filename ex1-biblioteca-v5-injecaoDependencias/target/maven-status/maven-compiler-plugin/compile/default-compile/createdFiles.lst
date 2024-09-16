@@ -1,8 +1,8 @@
-com\bcopstein\ex1biblioeca\Controller.class
-com\bcopstein\ex1biblioeca\Livro.class
-com\bcopstein\ex1biblioeca\UsuarioJDBCImpl.class
-com\bcopstein\ex1biblioeca\Usuario.class
-com\bcopstein\ex1biblioeca\Ex1BiblioecaApplication.class
-com\bcopstein\ex1biblioeca\IAcervoRepository.class
-com\bcopstein\ex1biblioeca\IUsuarioRepository.class
-com\bcopstein\ex1biblioeca\AcervoJDBCImpl.class
+com\gurias\ex1biblioeca\IAcervoRepository.class
+com\gurias\ex1biblioeca\UsuarioJDBCImpl.class
+com\gurias\ex1biblioeca\Controller.class
+com\gurias\ex1biblioeca\IUsuarioRepository.class
+com\gurias\ex1biblioeca\Livro.class
+com\gurias\ex1biblioeca\Usuario.class
+com\gurias\ex1biblioeca\Ex1BiblioecaApplication.class
+com\gurias\ex1biblioeca\AcervoJDBCImpl.class

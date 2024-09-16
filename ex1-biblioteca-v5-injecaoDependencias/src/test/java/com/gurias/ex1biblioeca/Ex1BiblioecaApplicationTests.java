@@ -1,4 +1,4 @@
-package com.bcopstein.ex1biblioeca;
+package com.gurias.ex1biblioeca;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

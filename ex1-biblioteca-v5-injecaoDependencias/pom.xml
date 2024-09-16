@@ -8,7 +8,7 @@
 		<version>3.2.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bcopstein</groupId>
+	<groupId>com.gurias</groupId>
 	<artifactId>ex1-biblioeca</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ex1-biblioeca</name>
